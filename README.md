@@ -1,4 +1,4 @@
-A tool for analyzing CPU information using the CPUID instruction. <br>
+A tool for analyzing CPU information(like CPU-Z) using the CPUID instruction. <br>
 It collects and outputs detailed information about the processor and its caches directly to the console.<br>
 I Plan to add Gui with ImGui or QT. <br>
 
