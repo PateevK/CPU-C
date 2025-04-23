@@ -1,6 +1,6 @@
 A tool for analyzing CPU information using the CPUID instruction. <br>
 It collects and outputs detailed information about the processor and its caches directly to the console.<br>
-Plan to add Gui with ImGui. <br>
+I Plan to add Gui with ImGui. <br>
 
 Used: CPUID instruction, x86/x64 architecture, libcpuid, OpenHardwareMonitor<br>
 
