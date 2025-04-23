@@ -8,6 +8,5 @@ Challenges:<br>
  1. The CPUID instruction works directly with CPU registers, so to interpret its output, I had to study binary logic and CPU architecture.<br>
 My initial idea was to parse Intel’s documentation into a MySQL database using a Python script, and then match that data against live CPUID results in C++ via MySQL queries.<br>
 Later, I discovered the libcpuid library, which significantly simplified the decoding process.<br>
-
  2.On Windows, accessing advanced CPU metrics (such as voltage and clock speeds) requires kernel-mode access.<br>
 Since modern Windows versions block unsigned drivers unless secure boot is disabled—a serious security risk—I decided not to bypass this restriction and paused development at that point.<br>
